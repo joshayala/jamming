@@ -20,7 +20,7 @@ function App() {
       id: 2,
     },
     ]);
-  const [playlistName, setPlaylistName] = useState("Example Playlist Name");
+  const [playlistName, setPlaylistName] = useState("Name Your Playlist Here");
   const [playlistTracks, setPlaylistTracks] = useState([
     {
       name: "Example Playlist Name 1",
@@ -64,7 +64,7 @@ function App() {
     function savePlaylist() {
       const trackURIs = playlistTracks.map((t) => t.uri);
       Spotify.savePlaylist(playlistName, trackURIs).then(() => {
-        updatePlaylistName("New Playist");
+        updatePlaylistName("Name Your Playlist Here");
         setPlaylistTracks([]);
       });
     }
@@ -79,6 +79,7 @@ function App() {
         <h1>
           Ja<span className={styles.highlight}>mmm</span>ing
         </h1>
+        <p className={styles.theme}>Find Your Music | Name & Build Your Playlist | Save Your Playlist</p>
         <div className={styles.App}>
           {/* <!-- Add a SearchBar component --> */}
           <SearchBar onSearch={search} />
@@ -96,7 +97,6 @@ function App() {
                 onNameChange={updatePlaylistName}
                 onSave={savePlaylist}
               />
-          
           </div>
         </div>
       </div>

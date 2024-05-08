@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Jamming_React Project
 
+## Description
+The Purpose of this project is to build a React Web Application using the knowledge of React components, passing states, and Requests with APIs. The user of this web application should be able to search the Spotify library, create a custom playlist, and then save it to their own Spotify account. The project was developed for the React Jamming Practice Portfolio Project, which is part of the Full-Stack Engineer Career Path in CodeCademy.
+
+## Project Goals
++ Build a web app using React
++ Version control the app with Git and host the repository on GitHub
++ Integrate with Spotify or another API
++ Deploy the app 
++ Develop localy on a computer
+
+## Features
++ Users can search for songs by song title, artist, and album
++ Users can see information about each song which includes the song title, artist, and album
++ Users can export their custom made playlist to their personal Spotify account
+
+## Technologies
++ HTML
++ CSS
++ JavaScript
++ HTTP Requests and Responses
++ Node.js
++ Git
++ React
++ Authentication
+
+## How to use
+To view the website, click the follwing link:
+```
+https://joshayala.github.io/portfolio_website/
+```
+Once on the site:
+1. Search for music in the search bar and click on 'SEARCH'
+2. Login to user's Spotify account
+3. Add to the playlist using the '+' and '-' buttons beside the tracks
+4. Name the playlist
+5. Once finished, click 'SAVE TO SPOTIFY'
+
+## Status
+The goals for the assignnment have been completed as of May 8th, 2024, however additional components for this project are in the progress.
+
+## License
+This Project has a MIT License.
+
+## Disclaimers
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

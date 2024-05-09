@@ -4,6 +4,7 @@ import SearchResults from "../SearchResults/SearchResults";
 import Playlist from "../Playlist/Playlist";
 import SearchBar from "../SearchBar/SearchBar";
 import { Spotify } from "../../util/Spotify/Spotify";
+import Footer from "../Footer/Footer";
 
 function App() {
   const [searchResults, setSearchResults] = useState([
@@ -99,6 +100,7 @@ function App() {
               />
           </div>
         </div>
+        <Footer />
       </div>
         );
 }

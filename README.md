@@ -28,7 +28,7 @@ The Purpose of this project is to build a React Web Application using the knowle
 ## How to use
 To view the website, click the follwing link:
 ```
-https://joshayala.github.io/portfolio_website/
+https://ayalajamming.netlify.app/
 ```
 Once on the site:
 1. Search for music in the search bar and click on 'SEARCH'
@@ -38,10 +38,10 @@ Once on the site:
 5. Once finished, click 'SAVE TO SPOTIFY'
 
 ## Status
-The goals for the assignnment have been completed as of May 8th, 2024, however additional components for this project are in the progress.
+The goals for the assignnment have been completed as of May 8th, 2024. Additional components for this project are under consideration.
 
 ## License
-This Project has a MIT License.
+This Project has an MIT License.
 
 ## Disclaimers
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
